@@ -2,8 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    
+    font-family: sans-serif;
     border: 1px dotted red;
+}
+
+.box{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* start nav bar */
@@ -21,6 +27,7 @@ nav{
 nav .row-container{
     height: 50px;
     /* test */
+    
     display: flex;
     align-items: center;
     
@@ -33,7 +40,7 @@ nav .row-container{
 
 nav div .logo{
     min-width: 250px;
-    
+
     text-align: start;
 }
 
@@ -62,3 +69,28 @@ nav div .login{
     text-align: end;
 }
 /* end nav bar */
+
+/* start header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-color: #00008b;
+}
+
+header .header{
+    height: 415px;
+    /* test */
+    width: 950px;
+
+    background-color: #ee82ee;
+}
+/* end header */
+
+/* start main */
+
+
+/* end main */
