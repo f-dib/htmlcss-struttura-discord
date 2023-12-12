@@ -12,11 +12,23 @@
     margin-bottom: 50px;
 }
 
+.main-container{
+    width: 100%;
+}
+
+.container{    
+    display: flex;
+    align-items: center;
+    
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* start nav bar */
 nav{
     height: 85px;
     /* test */
-    width: 100%;
 
     padding-top: 17px;
     padding-bottom: 17px;
@@ -24,16 +36,9 @@ nav{
     background-color: #add8e6;
 }
 
-nav .row-container{
+nav div.nav-row{
     height: 50px;
     /* test */
-    
-    display: flex;
-    align-items: center;
-    
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
 
     background-color: #daa520;
 }
@@ -76,8 +81,6 @@ header{
     justify-content: center;
     align-items: center;
 
-    width: 100%;
-
     background-color: #00008b;
 }
 
@@ -91,6 +94,38 @@ header .header{
 /* end header */
 
 /* start main */
+div.image-box{
+    height: 520px;
+    /* test */
+    width: 750px;
 
+    background-color: #1e90ff;
+}
 
+div.text-box{
+    height: 520px;
+    /* test */
+    flex-grow: 1;
+
+    background-color: #ffc0cb;
+}
+
+div.reverse{
+    flex-direction: row-reverse;
+}
+
+.bg-color{
+    background-color: #d3d3d3;
+}
+
+.download-section{
+    height: 940px;
+    /* test */
+
+    background-color: #228b22;
+}
 /* end main */
+
+/* start footer */
+
+/* end footer */
