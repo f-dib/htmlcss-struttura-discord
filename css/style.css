@@ -33,23 +33,32 @@ nav .row-container{
 
 nav div .logo{
     min-width: 250px;
+    
     text-align: start;
+}
+
+nav div .link{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 nav div ul{ 
     display: flex;
-    flex-grow: 1;
 
     list-style: none;
 }
 
 ul li a{
+    margin: 5px;
+
     text-decoration: none;
     color: black;
 }
 
 nav div .login{
     min-width: 250px;
+
     text-align: end;
 }
 /* end nav bar */
