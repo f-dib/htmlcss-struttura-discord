@@ -7,13 +7,13 @@
     border: black 2px dotted;
 }
 
+.main-container{
+    width: 100%;
+}
+
 .box{
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.main-container{
-    width: 100%;
 }
 
 .container{    
@@ -57,13 +57,12 @@ nav div .link{
 
 nav div ul{ 
     display: flex;
+    gap: 12px;
 
     list-style: none;
 }
 
 ul li a{
-    margin: 5px;
-
     text-decoration: none;
     color: black;
 }
